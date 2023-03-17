@@ -1,5 +1,11 @@
 package commands
 
-import "context"
+import (
+	"github.com/spf13/cobra"
+	"timeseries/timeseries"
+)
 
-type Command func(ctx context.Context, opts CommandLineOptions, args []string) error
+type TsCommand struct {
+	TimeSeriesRepository timeseries.Repository
+	Command              cobra.Command
+}
