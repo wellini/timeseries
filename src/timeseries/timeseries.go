@@ -14,5 +14,5 @@ type TimeSeries struct {
 	Type        Type
 	Time        time.Time
 	ProjectName string
-	JobName     string
+	TaskName    string
 }
