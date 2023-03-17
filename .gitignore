@@ -212,4 +212,7 @@ $RECYCLE.BIN/
 # Binaries
 build/
 
+# Output
+.timeseries/
+
 # End of https://www.toptal.com/developers/gitignore/api/osx,macos,windows,linux,intellij+all,git,visualstudiocode
